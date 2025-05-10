@@ -1,18 +1,18 @@
-# 🖥️ Digit Recognition using Python and Machine Learning
+# 🖥️ Handwritten Digit Recognition with TensorFlow
 
-This project implements a digit recognition system using Python. Leveraging machine learning algorithms, the model is trained to accurately identify handwritten digits from the popular MNIST dataset.
+This project implements a digit recognition system using deep learning with **TensorFlow**. The model is trained to accurately classify handwritten digits from the **MNIST dataset**.
 
 ## 📌 Features
-- Data preprocessing and normalization for optimized model performance.
-- Model training using **Logistic Regression** and performance evaluation.
-- Visualization of prediction results and model accuracy metrics.
+- Data loading and preprocessing using **TensorFlow Datasets**.
+- Neural network model built and trained with **TensorFlow's Keras API**.
+- Evaluation of model performance on unseen test data.
+- Visualization of prediction results and accuracy trends.
 
 ## 📊 Technologies Used
 - Python 3.x
 - Jupyter Notebook
+- TensorFlow
 - NumPy
-- Pandas
-- scikit-learn
 - Matplotlib
 
 ## 🚀 How to Run
@@ -23,9 +23,11 @@ This project implements a digit recognition system using Python. Leveraging mach
 4. Run the notebook cells sequentially.
 
 ## 📈 Results
-Achieved a prediction accuracy of over **90%** on test data, showcasing effective digit classification.
+Achieved a test accuracy of over **95%** on handwritten digit classification tasks, demonstrating the effectiveness of deep learning models for image recognition.
 
-## 📞 Contact
-For queries or collaborations:  
-[Your Name] — [your.email@example.com]  
-[LinkedIn Profile URL]  
+Short Desc:
+Developed a deep learning-based digit recognition system using TensorFlow's Keras API trained on the MNIST dataset.
+
+Preprocessed and normalized image data efficiently with NumPy and TensorFlow Datasets for optimized model input.
+
+Visualized model predictions and accuracy trends using Matplotlib, achieving over 95% test accuracy.
